@@ -1,0 +1,105 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-transform: capitalize;
+}
+
+#section-01 {
+  background-color: aquamarine;
+  margin-top: -20px;
+}
+
+#section-01 .navbar {
+  padding: 20px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section-01 .navbar .logo {
+  width: 30%;
+  margin-left: 100px;
+}
+
+#section-01 .navbar .logo h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#section-01 .navbar .menu {
+  width: 68%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section-01 .navbar .menu .linkes {
+  margin-left: 50px;
+}
+
+#section-01 .navbar .menu .linkes a {
+  border: 1px solid green;
+  padding: 5px 20px;
+  font-size: 25px;
+}
+
+#section-01 .navbar .menu .linkes a:hover {
+  background-color: orangered;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+#section-01 .navbar .menu div a {
+  color: black;
+  text-decoration: none;
+  margin: 20px 30px;
+  font-size: 23px;
+}
+
+#section-02 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+}
+
+#section-02 .main .img {
+  width: 50%;
+  text-align: center;
+}
+
+#section-02 .main .img img {
+  border-radius: 50%;
+  width: 70%;
+  height: 75%;
+  border: 2px solid black;
+}
+
+#section-02 .main .content {
+  width: 50%;
+  font-size: 20px;
+}
+
+#section-02 .main .content h1 {
+  margin: 10px 0px;
+}
+
+#section-02 .main .content details {
+  cursor: pointer;
+  margin: 0px 20px;
+  padding: 0px 20px;
+  display: block;
+  color: red;
+}
+
+#section-02 .main .content details summary {
+  list-style: circle;
+  background-color: aqua;
+  width: 80%;
+  height: auto;
+  padding: 10px 0px;
+  color: black;
+  margin: 5px 0px;
+}
+/*# sourceMappingURL=style.css.map */
